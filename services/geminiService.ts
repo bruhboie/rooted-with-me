@@ -1,6 +1,6 @@
-
 import { GoogleGenAI, Type } from "@google/genai";
 
+// Standard initialization using process.env.API_KEY as per the requirements
 const ai = new GoogleGenAI({ apiKey: process.env.API_KEY || '' });
 
 export const getPlantAdvice = async (query: string, base64Image?: string) => {
