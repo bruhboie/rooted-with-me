@@ -1,0 +1,8 @@
+{
+  "name": "Rooted with Me",
+  "description": "A social network for plant enthusiasts featuring a credit-based reward system for planting, an AI-powered plant doctor, and a community marketplace.",
+  "requestFramePermissions": [
+    "camera",
+    "geolocation"
+  ]
+}
